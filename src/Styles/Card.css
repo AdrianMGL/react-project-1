@@ -1,0 +1,63 @@
+/* paragraph phrase Author */
+.card__container {
+  min-height: calc(100vh - 5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* place-items: center; */
+}
+
+.card {
+  background-color: hsl(210, 11%, 96%);
+  border-radius: 1rem;
+  max-width: 40rem;
+  padding-block: 1rem;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card__title {
+  margin: 0.1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__title img {
+  width: 1.8rem;
+}
+
+.phrase {
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  text-align: justify;
+  line-height: 1.4;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.author {
+  margin-inline: 4rem;
+  text-align: right;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.btn {
+  margin-block: 1rem;
+  padding: 0.7rem;
+  border: 1px solid transparent;
+  color: transparent;
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn i {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.btn:hover {
+  background-color: palegoldenrod;
+}

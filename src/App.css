@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f5f6f7;
+  color: hsla(3, 100%, 69%, 0.9);
+  padding-block: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+}
