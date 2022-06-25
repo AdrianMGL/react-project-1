@@ -1,5 +1,5 @@
 import "./App.css";
-import Card from "./Components/Card";
+import MainCard from "./Components/MainCard";
 
 function App() {
   return (
@@ -7,9 +7,10 @@ function App() {
       <header className="App-header">
         <span className="title">Project 1 - Deliverable</span>
       </header>
-      <Card />
+      <MainCard />
     </div>
   );
 }
 
 export default App;
+

@@ -4,19 +4,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* place-items: center; */
 }
 
 .card {
-  background-color: hsl(210, 11%, 96%);
+  background: rgb(245,245,245);
+background: radial-gradient(circle, rgba(245,245,245,1) 18%, rgba(233,233,233,1) 37%, rgba(217,217,217,1) 84%);
   border-radius: 1rem;
-  max-width: 40rem;
+  max-width: 35rem;
   padding-block: 1rem;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
 }
 
 .card__title {
-  margin: 0.1rem 2.5rem;
+  margin: 1.5rem 3.3rem;
   display: flex;
   justify-content: space-between;
 }
@@ -26,8 +26,9 @@
 }
 
 .phrase {
-  margin: 1rem;
-  padding: 1rem 1.5rem;
+  margin:.1rem 2.5rem;
+  margin-top: 2rem;
+  padding: .2rem 1.5rem;
   text-align: justify;
   line-height: 1.4;
   font-size: 1.1rem;
